@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -71,6 +72,10 @@ export default function Home() {
                       <p className='text-center'>or</p>
                       <div className='flex justify-center mt-3'>
                         <a href="#" className='text-center font-bold'>Register now</a>
+                      </div>
+
+                      <div className='flex justify-center mt-3'>
+                        <Link href="/forgot-password" className='text-center font-semibold'>Forgot your password?</Link>
                       </div>
                     </div>
 
