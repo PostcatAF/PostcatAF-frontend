@@ -71,7 +71,7 @@ export default function Home() {
                     <div class="col-span-full">
                       <p className='text-center'>or</p>
                       <div className='flex justify-center mt-3'>
-                        <a href="#" className='text-center font-bold'>Register now</a>
+                        <Link href="/register" className='text-center font-bold'>Register now</Link>
                       </div>
 
                       <div className='flex justify-center mt-3'>
