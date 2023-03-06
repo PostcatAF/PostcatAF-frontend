@@ -24,8 +24,7 @@ export default function Register() {
                                     Let's get started!
                                   </h2>
                                   <p class="mt-2 text-sm text-gray-500">
-                                    Complete the details below so I can process your request and then
-                                    schedule a time to discuss your goals.
+                                    Complete the fields below to be able to enter the platform.
                                   </p>
                                 </div>
                               </div>
@@ -33,18 +32,6 @@ export default function Register() {
                                 <input autocomplete="false" name="hidden" style={{ display: 'none' }} />
                                 <input name="_redirect" type="hidden" value="#" />
                                 <div class="mt-4 space-y-6">
-                                  <div>
-                                    <label class="block mb-3 text-sm font-medium text-gray-600" name="name">
-                                      First name
-                                    </label>
-                                    <input class="block w-full px-6 py-3 text-black bg-white border border-gray-200 appearance-none rounded-xl placeholder:text-gray-400 focus:border-blue-500 focus:outline-none focus:ring-blue-500 sm:text-sm" placeholder="Your name" />
-                                  </div>
-                                  <div class="col-span-full">
-                                    <label class="block mb-3 text-sm font-medium text-gray-600" name="company">
-                                      What is the name of your company / organisation?
-                                    </label>
-                                    <input class="block w-full px-6 py-3 text-black bg-white border border-gray-200 appearance-none rounded-xl placeholder:text-gray-400 focus:border-blue-500 focus:outline-none focus:ring-blue-500 sm:text-sm" placeholder="Company name" />
-                                  </div>
                                   <div class="col-span-full">
                                     <label class="block mb-3 text-sm font-medium text-gray-600" name="email">
                                       How shall we contact you?
@@ -52,14 +39,10 @@ export default function Register() {
                                     <input class="block w-full px-6 py-3 text-black bg-white border border-gray-200 appearance-none rounded-xl placeholder:text-gray-400 focus:border-blue-500 focus:outline-none focus:ring-blue-500 sm:text-sm" placeholder="email@example.com" autocomplete="off" type="email" />
                                   </div>
                                   <div>
-                                    <div>
-                                      <label class="block mb-3 text-sm font-medium text-gray-600" name="message">
-                                        Project details
-                                      </label>
-                                      <div class="mt-1">
-                                        <textarea class="block w-full px-6 py-3 text-black bg-white border border-gray-200 appearance-none rounded-xl placeholder:text-gray-400 focus:border-blue-500 focus:outline-none focus:ring-blue-500 sm:text-sm" placeholder="What are you working on?" rows="4"></textarea>
-                                      </div>
-                                    </div>
+                                    <label class="block mb-3 text-sm font-medium text-gray-600" name="password">
+                                      Password
+                                    </label>
+                                    <input type="password" class="block w-full px-6 py-3 text-black bg-white border border-gray-200 appearance-none rounded-xl placeholder:text-gray-400 focus:border-blue-500 focus:outline-none focus:ring-blue-500 sm:text-sm" placeholder="******" />
                                   </div>
                                   <div class="col-span-full">
                                     <button class="inline-flex items-center justify-center w-full px-6 py-3 text-center text-white duration-200 bg-black border-2 border-black hover:bg-transparent hover:border-black rounded-xl hover:text-black focus:outline-none" type="submit">
