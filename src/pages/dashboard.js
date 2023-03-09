@@ -38,7 +38,7 @@ export default function Dashboard() {
                                 <div className="flex flex-col flex-grow px-4 mt-5">
                                     <nav className="flex-1 space-y-1 bg-white">
                                         <p className="px-4 pt-4 text-xs font-semibold text-gray-400 uppercase">
-                                            Analytics
+                                            Groups
                                         </p>
                                         <ul>
                                             <li>
@@ -50,7 +50,7 @@ export default function Dashboard() {
                                                         <path d="M6.4 20a9 9 0 1 1 11.2 0z" />
                                                     </svg>
                                                     <span className="ml-4">
-                                                        Dashboard
+                                                        Group 1
                                                     </span>
                                                 </a>
                                             </li>
@@ -62,70 +62,80 @@ export default function Dashboard() {
                                                         <polyline points="4 15 8 9 12 11 16 6 20 10" />
                                                     </svg>
                                                     <span className="ml-4">
-                                                        Performance
+                                                        Group 2
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a className="inline-flex items-center w-full px-4 py-2 mt-1 text-sm text-gray-500 transition duration-200 ease-in-out transform rounded-lg focus:shadow-outline hover:bg-gray-100 hover:scale-95 hover:text-blue-500" href="#">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chart-line" width="20" height="20" viewBox="0 0 24 24" stroke-width="0.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                        <line x1="4" y1="19" x2="20" y2="19" />
+                                                        <polyline points="4 15 8 9 12 11 16 6 20 10" />
+                                                    </svg>
+                                                    <span className="ml-4">
+                                                        Group 3
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a className="inline-flex items-center w-full px-4 py-2 mt-1 text-sm text-gray-500 transition duration-200 ease-in-out transform rounded-lg focus:shadow-outline hover:bg-gray-100 hover:scale-95 hover:text-blue-500" href="#">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plus" width="20" height="20" viewBox="0 0 24 24" stroke-width="1" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                        <line x1="12" y1="5" x2="12" y2="19" />
+                                                        <line x1="5" y1="12" x2="19" y2="12" />
+                                                    </svg>
+                                                    <span className="ml-4">
+                                                        Add new group
                                                     </span>
                                                 </a>
                                             </li>
                                         </ul>
                                         <p className="px-4 pt-4 text-xs font-semibold text-gray-400 uppercase">
-                                            Content
+                                            Direct messages
                                         </p>
                                         <ul>
                                             <li>
                                                 <a className="inline-flex items-center w-full px-4 py-2 mt-1 text-sm text-gray-500 transition duration-200 ease-in-out transform rounded-lg focus:shadow-outline hover:bg-gray-100 hover:scale-95 hover:text-blue-500" href="#">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-notebook" width="20" height="20" viewBox="0 0 24 24" stroke-width="0.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                                        <path d="M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-11a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1m3 0v18" />
-                                                        <line x1="13" y1="8" x2="15" y2="8" />
-                                                        <line x1="13" y1="12" x2="15" y2="12" />
-                                                    </svg>
+                                                    <img className='h-5 w-5 rounded-full' src="https://jvngarcia.com/wp-content/uploads/2021/01/community-group.png" alt="" />
                                                     <span className="ml-4">
-                                                        Guides
+                                                        Ángel García
                                                     </span>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a className="inline-flex items-center w-full px-4 py-2 mt-1 text-sm text-gray-500 transition duration-200 ease-in-out transform rounded-lg focus:shadow-outline hover:bg-gray-100 hover:scale-95 hover:text-blue-500" href="#">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-refresh" width="20" height="20" viewBox="0 0 24 24" stroke-width="0.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                                        <path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4" />
-                                                        <path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4" />
-                                                    </svg>
+                                                    <img className='h-5 w-5 rounded-full' src="https://jvngarcia.com/wp-content/uploads/2021/01/community-group.png" alt="" />
                                                     <span className="ml-4">
-                                                        Hotspots
-                                                    </span>
-                                                    <span className="inline-flex ml-auto items-center rounded-full bg-blue-50 px-2.5 py-0.5 text-xs font-medium text-blue-500">
-                                                        25
+                                                        Maria Quevedo
                                                     </span>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a className="inline-flex items-center w-full px-4 py-2 mt-1 text-sm text-gray-500 transition duration-200 ease-in-out transform rounded-lg focus:shadow-outline hover:bg-gray-100 hover:scale-95 hover:text-blue-500" href="#">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clipboard-check" width="20" height="20" viewBox="0 0 24 24" stroke-width="0.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                                        <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
-                                                        <rect x="9" y="3" width="6" height="4" rx="2" />
-                                                        <path d="M9 14l2 2l4 -4" />
-                                                    </svg>
+                                                    <img className='h-5 w-5 rounded-full' src="https://jvngarcia.com/wp-content/uploads/2021/01/community-group.png" alt="" />
                                                     <span className="ml-4">
-                                                        Checklist
+                                                        Zuleidy Castillo
                                                     </span>
                                                 </a>
                                             </li>
+
                                             <li>
                                                 <a className="inline-flex items-center w-full px-4 py-2 mt-1 text-sm text-gray-500 transition duration-200 ease-in-out transform rounded-lg focus:shadow-outline hover:bg-gray-100 hover:scale-95 hover:text-blue-500" href="#">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart" width="20" height="20" viewBox="0 0 24 24" stroke-width="0.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plus" width="20" height="20" viewBox="0 0 24 24" stroke-width="1" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                                        <path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                                        <line x1="12" y1="5" x2="12" y2="19" />
+                                                        <line x1="5" y1="12" x2="19" y2="12" />
                                                     </svg>
                                                     <span className="ml-4">
-                                                        TLD
+                                                        Add new chat
                                                     </span>
                                                 </a>
                                             </li>
+                                            
                                         </ul>
                                         <p className="px-4 pt-4 text-xs font-semibold text-gray-400 uppercase">
-                                            Customization
+                                            Projects
                                         </p>
                                         <ul>
                                             <li>
@@ -137,10 +147,26 @@ export default function Dashboard() {
                                                         <line x1="10" y1="12" x2="14" y2="12" />
                                                     </svg>
                                                     <span className="ml-4">
-                                                        Segments
+                                                        Bancamiga
                                                     </span>
                                                     <span className="inline-flex ml-auto items-center rounded-full bg-red-100 px-2.5 py-0.5 text-xs font-medium text-red-500">
                                                         25
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a className="inline-flex items-center w-full px-4 py-2 mt-1 text-sm text-gray-500 transition duration-200 ease-in-out transform rounded-lg focus:shadow-outline hover:bg-gray-100 hover:scale-95 hover:text-blue-500" href="#">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="20" height="20" viewBox="0 0 24 24" stroke-width="0.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                        <rect x="3" y="4" width="18" height="4" rx="2" />
+                                                        <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+                                                        <line x1="10" y1="12" x2="14" y2="12" />
+                                                    </svg>
+                                                    <span className="ml-4">
+                                                        Aluxion
+                                                    </span>
+                                                    <span className="inline-flex ml-auto items-center rounded-full bg-red-100 px-2.5 py-0.5 text-xs font-medium text-red-500">
+                                                        5
                                                     </span>
                                                 </a>
                                             </li>
