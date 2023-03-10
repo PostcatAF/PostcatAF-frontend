@@ -1,3 +1,6 @@
+import MessageLeft from '@/components/chat/MessageLeft'
+import MessageRight from '@/components/chat/MessageRight'
+import Input from '@/components/Input'
 import Head from 'next/head'
 import { useState } from 'react'
 
@@ -275,65 +278,21 @@ export default function Dashboard() {
                                     <div className="py-4">
                                         <div className="relative h-[45rem] border border-gray-200 border-dashed rounded-lg py-4 px-6">
                                             <div className='h-full'>
-                                                <div className='flex'>
-                                                    <div className='flex-shrink-0'>
-                                                        <img className='h-10 w-10 rounded-full' src="https://jvngarcia.com/wp-content/uploads/2021/01/community-group.png" alt="" />
-                                                    </div>
-                                                    <div className='ml-4'>
-                                                        <div className='flex items-center'>
-                                                            <h3 className='text-sm font-medium text-gray-900'>
-                                                                Juan Garcia
-                                                            </h3>
-                                                            <span className='ml-2 flex-shrink-0 inline-block px-2 py-0.5 text-green-800 text-xs font-medium bg-green-100 rounded-full'>
-                                                                Online
-                                                            </span>
-                                                        </div>
-                                                        <div className='mt-1 bg-gray-100 px-8 py-6 rounded-b-2xl rounded-tr-2xl'>
-                                                            <p className='text-sm text-gray-500'>
-                                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
-                                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
-                                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
-                                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
-                                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
-                                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                                <MessageLeft profileImg="https://jvngarcia.com/wp-content/uploads/2021/01/community-group.png" name="Juan Garcia" status="online" >
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+                                                </MessageLeft>
 
 
-                                                <div className='flex mt-8 flex-row-reverse'>
-                                                    <div className='flex-shrink-0'>
-                                                        <img className='h-10 w-10 rounded-full' src="https://jvngarcia.com/wp-content/uploads/2021/01/community-group.png" alt="" />
-                                                    </div>
-                                                    <div className='mr-4'>
-                                                        <div className='flex items-center justify-end'>
-                                                            <h3 className='text-sm font-medium text-gray-900'>
-                                                                Juan Garcia
-                                                            </h3>
-                                                            <span className='ml-2 flex-shrink-0 inline-block px-2 py-0.5 text-green-800 text-xs font-medium bg-green-100 rounded-full'>
-                                                                Online
-                                                            </span>
-                                                        </div>
-                                                        <div className='mt-2 bg-gray-50 px-8 py-6 rounded-b-2xl rounded-tl-2xl'>
-                                                            <p className='text-sm text-gray-500 text-right'>
-                                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
-                                                                asda
-                                                            </p>
-                                                            <p className='text-sm text-gray-500 text-right'>
-                                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
-                                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
-                                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
-                                                                asdaasda a
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                                <MessageRight profileImg="https://jvngarcia.com/wp-content/uploads/2021/01/community-group.png" name="Juan Garcia" status="online">
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+                                                </MessageRight>
                                             </div>
 
 
                                             <div className='absolute bottom-0 left-0 bg-gray-50 w-full py-5 px-6 flex'>
-                                                <input type="text" className="w-full h-10 pl-3 pr-10 text-base placeholder-gray-300 border rounded-lg focus:shadow-outline" placeholder="Hi!, how are you?" />
+                                                <Input placeholder='Hi!, how are you?' type='text' />
                                                 <button className='ml-2 bg-blue-100 hover:bg-blue-200 px-4 border-blue-300 border rounded-lg transition-all'>
                                                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-send" width="20" height="20" viewBox="0 0 24 24" stroke-width="1" stroke="#1e3a8a" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />

@@ -1,3 +1,5 @@
+import InputWithLabel from '@/components/InputWithLabel'
+import MainButton from '@/components/MainButton'
 import Head from 'next/head'
 import Link from 'next/link'
 
@@ -36,15 +38,12 @@ export default function Register() {
                       <input class="block w-full px-6 py-3 text-black bg-white border border-gray-200 appearance-none rounded-xl placeholder:text-gray-400 focus:border-blue-500 focus:outline-none focus:ring-blue-500 sm:text-sm" placeholder="email@example.com" autocomplete="off" type="email" />
                     </div>
                     <div>
-                      <label class="block mb-3 text-sm font-medium text-gray-600" name="password">
-                        Password
-                      </label>
-                      <input type="password" class="block w-full px-6 py-3 text-black bg-white border border-gray-200 appearance-none rounded-xl placeholder:text-gray-400 focus:border-blue-500 focus:outline-none focus:ring-blue-500 sm:text-sm" placeholder="******" />
+                      <InputWithLabel label="Password" type='password' placeholder='********' />                
                     </div>
                     <div class="col-span-full">
-                      <button class="inline-flex items-center justify-center w-full px-6 py-3 text-center text-white duration-200 bg-black border-2 border-black hover:bg-transparent hover:border-black rounded-xl hover:text-black focus:outline-none" type="submit">
+                      <MainButton className='w-full'>
                         Submit
-                      </button>
+                      </MainButton>
                     </div>
 
                     <div class="col-span-full">
