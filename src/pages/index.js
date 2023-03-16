@@ -1,3 +1,6 @@
+import InputWithLabel from '@/components/InputWithLabel'
+import MainButton from '@/components/MainButton'
+import SecondaryButton from '@/components/SecondaryButton'
 import Head from 'next/head'
 import Link from 'next/link'
 
@@ -11,13 +14,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="container mx-auto">
-
         <section className='flex justify-center items-center h-screen'>
-          <div class="relative items-center w-full px-5 mx-auto md:px-12 lg:px-20 max-w-7xl">
-            <div class="w-full max-w-md mx-auto md:max-w-sm md:px-0 md:w-96 sm:px-4">
-              <div class="flex flex-col">
+          <div className="relative items-center w-full px-5 mx-auto md:px-12 lg:px-20 max-w-7xl">
+            <div className="w-full max-w-md mx-auto md:max-w-sm md:px-0 md:w-96 sm:px-4">
+              <div className="flex flex-col">
                 <div>
-                  <h2 class="text-4xl text-black">
+                  <h2 className="text-4xl text-black">
                     Login
                   </h2>
                 </div>
@@ -26,41 +28,33 @@ export default function Home() {
               <form>
                 <input autocomplete="false" name="hidden" style={{ display: 'none' }} />
                 <input name="_redirect" type="hidden" value="https://jamstacker.studio/thankyou" />
-                <div class="mt-4 space-y-6">
-                  <div class="col-span-full">
-                    <label class="block mb-3 text-sm font-medium text-gray-600" name="username">
-                      Username
-                    </label>
-                    <input class="block w-full px-2 py-3 text-black bg-white border border-gray-200 appearance-none rounded-xl placeholder:text-gray-400 focus:border-blue-500 focus:outline-none focus:ring-blue-500 sm:text-sm" placeholder="jvngarcia" autocomplete="off" type="text" />
+                <div className="mt-4 space-y-6">
+                  <div className="col-span-full">
+                    <InputWithLabel label='Username' type='text' placeholder='username' />
                   </div>
-                  <div class="col-span-full">
-                    <label class="block mb-3 text-sm font-medium text-gray-600" name="password">
-                      Password
-                    </label>
-                    <input class="block w-full px-2 py-3 text-black bg-white border border-gray-200 appearance-none rounded-xl placeholder:text-gray-400 focus:border-blue-500 focus:outline-none focus:ring-blue-500 sm:text-sm" placeholder="******" autocomplete="off" type="password" />
+                  <div className="col-span-full">
+                    <InputWithLabel label='Password' type='password' placeholder='******' />
                   </div>
 
-                  <div class="col-span-full">
-                    <button class="inline-flex items-center justify-center w-full px-6 py-3 text-center text-white duration-200 bg-black border-2 border-black hover:bg-transparent hover:border-black rounded-xl hover:text-black focus:outline-none focus-visible:outline-black focus-visible:ring-black" type="submit">
-                      Submit
-                    </button>
+                  <div className="col-span-full">
+                    <MainButton className='w-full'>Submit</MainButton>
                   </div>
 
-                  <div class="col-span-full">
-                    <button type="button" class="inline-flex items-center justify-center w-full px-6 py-3 text-center text-black duration-200 bg-white border-2 border-black hover:bg-transparent hover:border-black rounded-xl hover:text-black focus:outline-none focus-visible:outline-black focus-visible:ring-black">
-                      <svg className='mr-2' xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-google-play" width="25" height="25" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <div className="col-span-full">
+                    <SecondaryButton className='w-full'>
+                      <svg xmlns="http://www.w3.org/2000/svg" className="mr-2 icon icon-tabler icon-tabler-brand-google-play" width="25" height="25" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <path d="M4 3.71v16.58a0.7 .7 0 0 0 1.05 .606l14.622 -8.42a0.55 .55 0 0 0 0 -.953l-14.622 -8.419a0.7 .7 0 0 0 -1.05 .607z" />
                         <line x1="15" y1="9" x2="4.5" y2="20.5" />
                         <line x1="4.5" y1="3.5" x2="15" y2="15" />
                       </svg>
                       Login with google
-                    </button>
+                    </SecondaryButton>
                   </div>
 
-                  <div class="col-span-full">
-                    <button type="button" class="inline-flex items-center justify-center w-full px-6 py-3 text-center text-black duration-200 bg-white border-2 border-black hover:bg-transparent hover:border-black rounded-xl hover:text-black focus:outline-none focus-visible:outline-black focus-visible:ring-black">
-                      <svg className='mr-2' xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="25" height="25" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <div className="col-span-full">
+                    <button type="button" className="inline-flex items-center justify-center w-full px-6 py-3 text-center text-black duration-200 bg-white border-2 border-black hover:bg-transparent hover:border-black rounded-xl hover:text-black focus:outline-none focus-visible:outline-black focus-visible:ring-black">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="mr-2 icon icon-tabler icon-tabler-brand-github" width="25" height="25" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
                       </svg>
@@ -68,7 +62,7 @@ export default function Home() {
                     </button>
                   </div>
 
-                  <div class="col-span-full">
+                  <div className="col-span-full">
                     <p className='text-center'>or</p>
                     <div className='flex justify-center mt-3'>
                       <Link href="/register" className='text-center font-bold'>Register now</Link>
@@ -78,8 +72,6 @@ export default function Home() {
                       <Link href="/forgot-password" className='text-center font-semibold'>Forgot your password?</Link>
                     </div>
                   </div>
-
-
                 </div>
               </form>
             </div>
