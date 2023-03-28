@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# PostcatAF
+
+Sistema para la gestión y comunicación de equipos mediante Chat interactivos y sistema de asignación de tareas.
 
 ## Getting Started
 
