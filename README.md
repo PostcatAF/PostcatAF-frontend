@@ -5,7 +5,7 @@ Sistema para la gestión y comunicación de equipos mediante Chat interactivos y
 
 PostcatAF
 ============
-[![GitHub Stars](https://img.shields.io/github/stars/IgorAntun/node-chat.svg)](https://github.com/PostcatAF/PostcatAF-frontend/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/IgorAntun/node-chat.svg)](https://github.com/PostcatAF/PostcatAF-frontend/issues) [![Current Version](https://img.shields.io/badge/version-0.1-green.svg)](https://github.com/PostcatAF/PostcatAF-frontend) [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](#)
+[![GitHub Stars](https://img.shields.io/github/stars/PostcatAF/PostcatAF-frontend.svg)](https://github.com/PostcatAF/PostcatAF-frontend/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/PostcatAF/PostcatAF-frontend.svg)](https://github.com/PostcatAF/PostcatAF-frontend/issues) [![Current Version](https://img.shields.io/badge/version-0.1-green.svg)](https://github.com/PostcatAF/PostcatAF-frontend) [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](#)
 
 This is a Chat that allows you to manage teams and tasks, to keep track and a stable process of them.
 
@@ -33,6 +33,6 @@ Whether you use this project, have learned something from it, or just like it, p
 - **Team**
 
 ## License
->You can check out the full license [here](https://github.com/IgorAntun/node-chat/blob/master/LICENSE)
+>You can check out the full license [here](https://github.com/PostcatAF/PostcatAF-frontend/blob/master/LICENSE)
 
 This project is licensed under the terms of the **MIT** license.
