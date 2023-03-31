@@ -5,7 +5,7 @@ Sistema para la gestión y comunicación de equipos mediante Chat interactivos y
 
 PostcatAF
 ============
-[![GitHub Stars](https://img.shields.io/github/stars/IgorAntun/node-chat.svg)](https://github.com/IgorAntun/node-chat/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/IgorAntun/node-chat.svg)](https://github.com/IgorAntun/node-chat/issues) [![Current Version](https://img.shields.io/badge/version-0.1-green.svg)](https://github.com/IgorAntun/node-chat) [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://igorantun.com/chat) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/IgorAntun/node-chat?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![GitHub Stars](https://img.shields.io/github/stars/IgorAntun/node-chat.svg)](https://github.com/PostcatAF/PostcatAF-frontend/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/IgorAntun/node-chat.svg)](https://github.com/PostcatAF/PostcatAF-frontend/issues) [![Current Version](https://img.shields.io/badge/version-0.1-green.svg)](https://github.com/PostcatAF/PostcatAF-frontend) [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](#) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/IgorAntun/node-chat?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 This is a Chat that allows you to manage teams and tasks, to keep track and a stable process of them.
 
