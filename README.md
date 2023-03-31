@@ -1,8 +1,3 @@
-# PostcatAF
-
-Sistema para la gestión y comunicación de equipos mediante Chat interactivos y sistema de asignación de tareas.
-
-
 PostcatAF
 ============
 [![GitHub Stars](https://img.shields.io/github/stars/PostcatAF/PostcatAF-frontend.svg)](https://github.com/PostcatAF/PostcatAF-frontend/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/PostcatAF/PostcatAF-frontend.svg)](https://github.com/PostcatAF/PostcatAF-frontend/issues) [![Current Version](https://img.shields.io/badge/version-0.1-green.svg)](https://github.com/PostcatAF/PostcatAF-frontend) [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](#)
