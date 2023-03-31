@@ -9,7 +9,7 @@ PostcatAF
 
 This is a Chat that allows you to manage teams and tasks, to keep track and a stable process of them.
 
-![Chat Preview](https://imgur.com/a/wLrFe5M)
+![Chat Preview](http://i.imgur.com/wLrFe5M)
 
 ---
 ## Buy me a coffee
